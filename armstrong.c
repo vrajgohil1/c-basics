@@ -15,7 +15,7 @@ void main()
     while(a>0)
     {
         d=a%10;
-        sum=sum+pow(d,i);
+        sum+=pow(d,i);
         a=a/10;
     }
     if(c==sum)
